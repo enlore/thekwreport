@@ -17,7 +17,7 @@ module.exports = (grunt) ->
                 options:
                     port: 3000
                     hostname: "localhost"
-                    #debug: true
+                    debug: true
                     #livereload: true
                     base: "dist/static"
                     keepalive: true
@@ -47,3 +47,4 @@ module.exports = (grunt) ->
             build:
                 files:
                     "dist/static/index.html": ["src/jade/index.jade"]
+                    "dist/static/article.html": ["src/jade/article.jade"]

@@ -1,0 +1,27 @@
+.entree
+    .title-bar
+        position relative
+        .bg
+            background black
+            position absolute
+            top 0
+            left 0
+            width 100%
+            height 60px
+            transform translateX(-40%)
+
+            @media (min-width: 2000px)
+                transform none
+
+        .content
+            position absolute
+            color white
+            top 0
+            left 0
+            margin 0
+            padding 10px
+
+    .sidebar
+        overflow hidden
+        @media (min-width: $medium)
+            border-left 1px solid black
